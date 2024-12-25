@@ -1,0 +1,87 @@
+body{
+    font-family: 'Metropolis', sans-serif;
+                                                
+}
+
+.card{
+    margin: 14px auto;
+    width: 900px;
+    position: relative;
+}
+.bg-image{
+   width: 100%;
+   height: 270px;
+   object-fit: cover;
+   filter:brightness(50%);
+   filter:blur(40%);
+}
+.register{
+    font-size: 7px;
+}
+.content{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.logo{
+   color: rgb(255, 255, 255);
+   bottom:0;
+   top: 0;
+   font-size: 50px;
+   margin-top: -240px;
+   margin-bottom: 200px;
+}
+
+.desc{
+    position: absolute;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: .5px;
+    color: white;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    margin-top: -175px;
+    margin-bottom: 100px;
+}
+
+.options{
+    position: absolute;
+    top: 0;
+    width:135px;
+    left: 0;
+    margin-left: 160px;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+    margin-top: -120px;
+    margin-bottom: 100px;
+    border: none;
+}
+
+.search-bar{
+    position: absolute;
+    height:43px;
+    left: 0;
+    width: 430px;
+    background-color: white;
+    top:0;
+    margin: -120px 0 0 295px;
+    border-radius: 0 4px 4px 0;
+}
+.icon{
+    margin-right: 5px;
+}
+.search{
+    width: 370px;
+    margin-top: 7px;
+    height: 30px;
+    align-content: center;
+    box-sizing: border-box;
+    border: none;
+}
+input:focus{
+    outline: none;
+}
+
